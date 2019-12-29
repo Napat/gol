@@ -23,7 +23,7 @@ func main() {
 		panic(err)
 	}
 
-	x.GDebugf("GInfof debug")
+	x.GDebugf("GDebugf debug")
 
 	x.WithFields(gol.Fields{
 		"isAwesome": true,
