@@ -1,5 +1,6 @@
-github.com/Napat/gol v0.0.0-20191229122445-265441bc33a4 h1:oPZMuc+gLAljuQOWZTRH+Av/OZDKtagjWZJqVONLggs=
-github.com/Napat/gol v0.0.0-20191229122445-265441bc33a4/go.mod h1:YMmuf/o6mVRW/f5rUULYzj05JeTD18uLhCuHrDxjPNw=
+github.com/Napat/gol v0.0.0-20191229125236-528f0b017268/go.mod h1:YMmuf/o6mVRW/f5rUULYzj05JeTD18uLhCuHrDxjPNw=
+github.com/Napat/gol v0.0.0-20191229132538-bf00e2027d45 h1:YN9cr/7dvp7q5bcwe7K+fT2vjqjfxU0MHR3MQDR6XFs=
+github.com/Napat/gol v0.0.0-20191229132538-bf00e2027d45/go.mod h1:YMmuf/o6mVRW/f5rUULYzj05JeTD18uLhCuHrDxjPNw=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=

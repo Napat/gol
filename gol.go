@@ -44,9 +44,8 @@ func New() *Gol {
 		Logger: &logrus.Logger{
 			Out: os.Stderr,
 			Formatter: &logrus.TextFormatter{
-				DisableColors: true, // https://github.com/sirupsen/logrus/issues/1069
-				//TimestampFormat: "2006-01-02_15:04:05.000Z07:00", // add timestamp with format
-				TimestampFormat: time.RFC3339, // add timestamp with format: "2006-01-02T15:04:05Z07:00"
+				DisableColors:   true,                            // https://github.com/sirupsen/logrus/issues/1069
+				TimestampFormat: "2006-01-02T15:04:05.000Z07:00", // add timestamp with format: RFC3339 Micro
 			},
 			Hooks:        make(logrus.LevelHooks),
 			Level:        logrus.DebugLevel,
@@ -65,9 +64,8 @@ func NewWithHookPrinter() *Gol {
 		Logger: &logrus.Logger{
 			Out: os.Stderr,
 			Formatter: &logrus.TextFormatter{
-				DisableColors: true, // https://github.com/sirupsen/logrus/issues/1069
-				// TimestampFormat: "2006-01-02_15:04:05.000Z07:00", // add timestamp with format
-				TimestampFormat: time.RFC3339, // add timestamp with format: "2006-01-02T15:04:05Z07:00"
+				DisableColors:   true,                            // https://github.com/sirupsen/logrus/issues/1069
+				TimestampFormat: "2006-01-02T15:04:05.000Z07:00", // add timestamp with format: RFC3339 Micro
 			},
 			Hooks:        make(logrus.LevelHooks),
 			Level:        logrus.DebugLevel,
@@ -89,9 +87,8 @@ func NewWithHookAutoFileDate(filepath string, rotatefileTimezone string) (gol *G
 		Logger: &logrus.Logger{
 			Out: os.Stderr,
 			Formatter: &logrus.TextFormatter{
-				DisableColors: true, // https://github.com/sirupsen/logrus/issues/1069
-				// TimestampFormat: "2006-01-02_15:04:05.000Z07:00", // add timestamp with format
-				TimestampFormat: time.RFC3339, // add timestamp with format: "2006-01-02T15:04:05Z07:00"
+				DisableColors:   true,                            // https://github.com/sirupsen/logrus/issues/1069
+				TimestampFormat: "2006-01-02T15:04:05.000Z07:00", // add timestamp with format: RFC3339 Micro
 			},
 			Hooks:        make(logrus.LevelHooks),
 			Level:        logrus.DebugLevel,
@@ -129,8 +126,7 @@ func NewJSONWithHookAutoFileDate(filepath string, rotatefileTimezone string) (go
 		Logger: &logrus.Logger{
 			Out: os.Stderr,
 			Formatter: &logrus.JSONFormatter{
-				// TimestampFormat: "2006-01-02_15:04:05.000Z07:00", // add timestamp with format
-				TimestampFormat: time.RFC3339, // add timestamp with format: "2006-01-02T15:04:05Z07:00"
+				TimestampFormat: "2006-01-02T15:04:05.000Z07:00", // add timestamp with format: RFC3339 Micro
 				PrettyPrint:     false,
 			},
 			Hooks:        make(logrus.LevelHooks),
