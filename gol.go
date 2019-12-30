@@ -13,7 +13,7 @@ import (
 
 type Fields logrus.Fields
 
-// Gol ...
+// Gol logrus.Logger with additional features
 type Gol struct {
 	*logrus.Logger
 	// Mutex Locking is enabled by Default to protect OSFile and sensitive feilds

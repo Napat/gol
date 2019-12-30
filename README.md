@@ -45,6 +45,22 @@ This package is focused on writing log to files purpose.
     }).GDebugf("Healthy")
 ```
 
+## Guideline
+
+### Timezone Problems when using container
+
+Gol use go function `time.LoadLocation()` that may found `panic: unknown time zone xxx` and other time zone problems, especially when in alpine container.
+I recommend installing time zone information to container to fixed the issues.
+
+``` Dockerfile
+FROM alpine:3.10.3
+...
+RUN apk add --no-cache tzdata && \
+    cp /usr/share/zoneinfo/Asia/Bangkok /etc/localtime && \
+    echo "Asia/Bangkok" >  /etc/timezone
+...
+```
+
 ## References
 
 - https://dave.cheney.net/2015/11/05/lets-talk-about-logging
