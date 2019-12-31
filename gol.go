@@ -264,3 +264,8 @@ func (gol *Gol) GErrorf(format string, args ...interface{}) {
 		gol.FileSync()
 	}
 }
+
+// Printf similar to GInfof
+func (gol *Gol) Printf(format string, args ...interface{}) {
+	gol.GInfof(format, args)
+}

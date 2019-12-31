@@ -1,8 +1,11 @@
 github.com/Napat/gol v0.0.0-20191229125236-528f0b017268/go.mod h1:YMmuf/o6mVRW/f5rUULYzj05JeTD18uLhCuHrDxjPNw=
 github.com/Napat/gol v0.0.0-20191229132538-bf00e2027d45 h1:YN9cr/7dvp7q5bcwe7K+fT2vjqjfxU0MHR3MQDR6XFs=
 github.com/Napat/gol v0.0.0-20191229132538-bf00e2027d45/go.mod h1:YMmuf/o6mVRW/f5rUULYzj05JeTD18uLhCuHrDxjPNw=
+github.com/Napat/gol v0.0.0-20191230130839-ac88c11241c9 h1:GRVh5zGpVnK21FLp9fC91yRpYQhDWugMjYQR3uWg1dc=
+github.com/Napat/gol v0.0.0-20191230130839-ac88c11241c9/go.mod h1:YMmuf/o6mVRW/f5rUULYzj05JeTD18uLhCuHrDxjPNw=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
+github.com/konsorten/go-windows-terminal-sequences v1.0.2/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/snowzach/rotatefilehook v0.0.0-20180327172521-2f64f265f58c h1:iUEy7/LRto3JqR/GLXDTEFP+s+qIjWw4pM8yzMfXC9A=
@@ -10,5 +13,7 @@ github.com/snowzach/rotatefilehook v0.0.0-20180327172521-2f64f265f58c/go.mod h1:
 github.com/stretchr/objx v0.1.1/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 golang.org/x/sys v0.0.0-20190422165155-953cdadca894/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20191228213918-04cbcbbfeed8 h1:JA8d3MPx/IToSyXZG/RhwYEtfrKO1Fxrqe8KrkiLXKM=
+golang.org/x/sys v0.0.0-20191228213918-04cbcbbfeed8/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 gopkg.in/natefinch/lumberjack.v2 v2.0.0 h1:1Lc07Kr7qY4U2YPouBjpCLxpiyxIVoxqXgkXLknAOE8=
 gopkg.in/natefinch/lumberjack.v2 v2.0.0/go.mod h1:l0ndWWf7gzL7RNwBG7wST/UCcT4T24xpD6X8LsfU/+k=

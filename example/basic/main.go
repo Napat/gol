@@ -23,6 +23,12 @@ func main() {
 		panic(err)
 	}
 
+	x.Printf("gol Printf Message\n")
+	x.WithFields(gol.Fields{
+		"isAwesome": true,
+		"star":      9999,
+	}).Printf("entry Printf\n")
+
 	x.GDebugf("GDebugf debug")
 
 	x.WithFields(gol.Fields{

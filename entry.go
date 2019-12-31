@@ -35,3 +35,8 @@ func (entry *Entry) GErrorf(format string, args ...interface{}) {
 		entry.Logger.FileSync()
 	}
 }
+
+// Printf similar to GInfof
+func (entry *Entry) Printf(format string, args ...interface{}) {
+	entry.GInfof(format, args)
+}
