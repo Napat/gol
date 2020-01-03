@@ -7,8 +7,6 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-
-	_ "github.com/snowzach/rotatefilehook" // https://github.com/sirupsen/logrus/issues/784#issuecomment-403765306
 )
 
 type Fields logrus.Fields
